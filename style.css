@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 325px 325px;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 650px;
+    margin-top: 250px;
+}
+
+.perfume {
+    width: 100%;
+}
+
+.information {
+    padding: 30px;
+    background-color: white;
+}
+
+.spaced-header {
+    color:hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+h1 {
+    font-weight: 700;
+    font-family:'Fraunces', serif;
+    margin-bottom: 20px;
+}
+ 
+.description {
+    margin-bottom: 30px;
+    color: hsl(228, 12%, 48%);
+    word-spacing: 2px;
+}
+
+
+.price {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center; 
+}
+
+.price p {
+    margin-left: 15px;
+    text-align: center;
+    text-decoration: line-through;
+    color:  hsl(228, 12%, 48%);
+}
+
+.price h1 {
+  margin-bottom: 0px;
+  color:hsl(158, 36%, 37%);
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+button h4 {
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 660px){
+    .card {
+        display: grid;
+        width: 360px;
+        margin-top: 20px;
+        grid-template-columns: 360px;
+        grid-template-rows: 300px 450px;
+    }
+    .perfume {
+    width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
